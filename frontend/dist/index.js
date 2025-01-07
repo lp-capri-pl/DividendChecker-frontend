@@ -13,10 +13,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
+const backendUrl = "https://dividendchecker-backend.onrender.com";
 function fetchBackendMessage() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const response = yield axios_1.default.get('http://127.0.0.1:5000/');
+            const response = yield axios_1.default.get(`${backendUrl}/`);
             console.log('Backend Response:', response.data);
         }
         catch (error) {
