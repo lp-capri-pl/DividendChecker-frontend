@@ -1,21 +1,14 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && cp index.html dist/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
   "devDependencies": {
     "@types/axios": "^0.9.36",
     "typescript": "^5.7.2"
-  },
-
-  "dependencies": {
-    "axios": "^1.7.9"
   }
 }

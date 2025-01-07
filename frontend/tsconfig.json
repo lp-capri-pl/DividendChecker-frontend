@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es6", /* Modern JavaScript supported by browsers */
-    "module": "es6", /* Use ES6 modules for browser compatibility */
-    "strict": true, /* Enable all strict type-checking options */
-    "esModuleInterop": true, /* Enables compatibility with CommonJS modules like axios */
-    "moduleResolution": "node", /* Resolves modules in Node.js style */
-    "outDir": "./dist", /* Output directory for compiled JavaScript */
+    "target": "es6", /* Modern JavaScript for browsers */
+    "module": "es6", /* ES6 modules for browsers */
+    "strict": true, /* Enable strict type-checking */
+    "esModuleInterop": true, /* Compatibility with CommonJS modules */
+    "moduleResolution": "node", /* Resolve modules like Node.js */
+    "outDir": "./dist", /* Output directory for compiled files */
     "rootDir": "./src", /* Root directory for TypeScript source files */
-    "skipLibCheck": true /* Skip type checking of declaration files */
+    "skipLibCheck": true /* Skip type-checking declaration files */
   },
   "include": [
     "src"
