@@ -27,3 +27,4 @@ function fetchBackendMessage() {
 }
 console.log("Welcome to DividendChecker frontend!");
 fetchBackendMessage();
+// Redeploy trigger
